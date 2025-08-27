@@ -1,17 +1,17 @@
-ShopVista Website
+# 🛍️ ShopVista Website
 
 An e-commerce website that lets users **browse products, add items to the cart, and make purchases online**.  
 Built with **HTML**, **CSS**, **JavaScript**, and optionally **Tailwind CSS**, ShopVista offers a clean and responsive shopping experience.
 
 ---
 
-📄 Project Overview
+## 📄 Project Overview
 
 ShopVista aims to simplify online shopping. Users can explore product categories, view product details, and add items to the cart for checkout. The website is **fully responsive**, providing a smooth experience on **desktop, tablet, and mobile devices**.
 
 ---
 
- 📸 ShopVista UI
+## 📸 ShopVista UI
 
 > 💡 User Interface.
 
@@ -21,7 +21,7 @@ ShopVista aims to simplify online shopping. Users can explore product categories
 
 ---
 
- 🔧 Features
+## 🔧 Features
 
 - 🛒 Browse product categories and listings
 - 📦 View product details with images and prices
@@ -32,7 +32,7 @@ ShopVista aims to simplify online shopping. Users can explore product categories
 
 ---
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 | Technology           | Purpose                                    |
 |---------------------|--------------------------------------------|
@@ -43,4 +43,5 @@ ShopVista aims to simplify online shopping. Users can explore product categories
 | 🌐 Font Awesome      | Icons for social media and UI elements    |
 
 ---
+
 
