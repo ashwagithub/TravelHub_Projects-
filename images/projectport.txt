@@ -1,0 +1,148 @@
+ <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-gray-50">
+      <div class="max-w-screen-xl mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-14 text-gray-800">My Projects</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Project 1 -->
+          <div
+            class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl"
+          >
+            <img
+              src="images/project1.png"
+              alt="Project 1"
+              class="w-full h-59 object-cover"
+            />
+            <div class="p-6 text-left">
+              <h3 class="text-2xl font-semibold text-primary mb-3">
+                Project 1
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Training LLM Using Custom PDFs Interactive Streamlit app to
+                upload PDFs and chat with their content using LangChain, vector
+                search (ChromaDB/FAISS), and Google Generative AI.
+              </p>
+              <a
+                href="https://github.com/ashwagithub/Training-LLM-Using-Custom-PDFs"
+                class="inline-block text-sm font-medium text-primary hover:text-primary-dark transition"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl"
+          >
+            <img
+              src="images/project2.png"
+              alt="Project 2"
+              class="w-full h-59 object-cover"
+            />
+            <div class="p-6 text-left">
+              <h3 class="text-2xl font-semibold text-primary mb-3">
+                Project 2
+              </h3>
+              <p class="text-gray-600 mb-4">
+                TravelHub A responsive travel booking website with an immersive
+                hero, destination discovery, package listings, and gallery —
+                built with HTML, Tailwind CSS & JavaScript for fast,
+                mobile-first experiences.
+              </p>
+              <a
+                href="#"
+                class="inline-block text-sm font-medium text-primary hover:text-primary-dark transition"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl"
+          >
+            <img
+              src="images/project3.png"
+              alt="Project 3"
+              class="w-full h-49 object-cover"
+            />
+            <div class="p-6 text-left">
+              <h3 class="text-2xl font-semibold text-primary mb-3">
+                Project 3
+              </h3>
+              <p class="text-gray-600 mb-4">
+
+                ShopVista A modern e-commerce frontend prototype with responsive
+                product listings, filters, and a polished checkout UI — built
+                with HTML, Tailwind CSS, and JavaScript.
+              </p>
+              <a
+                href="#"
+                class="inline-block text-sm font-medium text-primary hover:text-primary-dark transition"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+<section id="contact" class="py-16 px-4 bg-gray-800 text-white">
+  <div class="max-w-screen-md mx-auto text-center">
+    
+    <!-- Heading -->
+    <h2 class="text-3xl font-semibold mb-8">Contact Me</h2>
+
+    <!-- Contact Form -->
+    <form class="space-y-6">
+      <input type="text" placeholder="Your Name" 
+             class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+      <input type="email" placeholder="Your Email" 
+             class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+      <textarea placeholder="Your Message" rows="4"
+                class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+      <button type="submit" 
+              class="w-full py-3 bg-blue-600 rounded-lg text-white font-medium hover:bg-blue-700 transition">
+        Send Message
+      </button>
+    </form>
+
+    <!-- Social Icons -->
+    <div class="flex justify-center space-x-6 mt-10">
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com" target="_blank" 
+         class="text-gray-400 hover:text-white text-3xl transition">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com" target="_blank" 
+         class="text-gray-400 hover:text-white text-3xl transition">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <!-- Telegram -->
+      <a href="https://t.me/yourtelegram" target="_blank" 
+         class="text-gray-400 hover:text-white text-3xl transition">
+        <i class="fab fa-telegram"></i>
+      </a>
+    </div>
+
+  </div>
+</section>
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white py-6 text-center">
+  <p class="text-sm">&copy; 2025 Ashwajit. All Rights Reserved.</p>
+  
+  <div class="mt-4 space-x-6">
+    <a href="#" class="hover:text-gray-400 text-sm">Privacy Policy</a>
+    <a href="#" class="hover:text-gray-400 text-sm">Terms of Service</a>
+    <a href="#" class="hover:text-gray-400 text-sm">Contact</a>
+  </div>
+</footer>
