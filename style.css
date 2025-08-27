@@ -1,0 +1,29 @@
+/* Hide horizontal scrollbar */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Product Card */
+.product-card {
+  min-width: 200px;
+  background: #fff;
+  border-radius: .5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform .2s;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+}
+.product-card img {
+  width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+/* Hero Slider images inline-block */
+#heroSlider img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Buttons remove default outline */
+button:focus { outline: none; }
